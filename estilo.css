@@ -1,0 +1,43 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(to right, rgb(241, 241, 241), rgb(214, 214, 214));
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #f8f8f8;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 40%;
+}
+
+legend {
+  font-weight: bold;
+}
+
+textarea {
+  width: 50%;
+  height: 200px;
+}
+
+input,
+label {
+  cursor: pointer;
+}
+
+input.radio {
+  width: auto;
+}
+
+#submit {
+  width: auto;
+  margin-left: 25%;
+}
